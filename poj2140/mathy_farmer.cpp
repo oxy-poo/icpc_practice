@@ -5,25 +5,17 @@ using namespace std;
 int main(){
     int num;
     cin >> num;
-    int sum,count;
-    sum = 0;
-    count = 0;
-    for(int i = 1; i <= num; i++){
-        for(int sum = i; i < num;sum+=i){
-            
-            if(sum > num){
-                break;
-                sum = 0;
-            }
+    int count(0);
+
+    for(int i = 0; i <= num; i++){
+        int sum(i),counter(i);
+        while(sum <= num){
+            counter++;
+            sum +=counter;
             if(sum == num){
-                cout << i << endl;
                 count++;
-                sum = 0;
+                break;
             }
-            i++;
-        }
-        if(sum == num){
-            count++;
         }
     }
     cout << count << endl;
