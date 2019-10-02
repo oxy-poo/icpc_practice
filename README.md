@@ -15,17 +15,4 @@ THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG.
 THIS IS AN EXAMPLE TO TEST FOR YOUR
 HISTOGRAM PROGRAM.
 HELLO!
-### Sample Output
-
-                            *
-                            *
-        *                   *
-        *                   *     *   *
-        *                   *     *   *
-*       *     *             *     *   *
-*       *     * *     * *   *     * * *
-*       *   * * *     * *   * *   * * * *
-*     * * * * * *     * * * * *   * * * *     * *
-* * * * * * * * * * * * * * * * * * * * * * * * * *
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
