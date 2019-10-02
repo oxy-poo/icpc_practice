@@ -69,13 +69,13 @@ For each case, print exactly one line containing only one integer - the reversed
 
 ### Sample Input
 
-3
-24 1
-4358 754
-305 794
+3\
+24 1\
+4358 754\
+305 794\
 
 ### Sample Output
 
-34
-1998
-1
+34\
+1998\
+1\
