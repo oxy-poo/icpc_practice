@@ -144,14 +144,18 @@ The output for every scenario begins with a line containing "Scenario #i:", wher
 
 ### Sample Output
 
-Scenario #1:
-1.333
+Scenario #1:\
+1.333\
 
-Scenario #2:
-0.621
+Scenario #2:\
+0.621\
 
-Scenario #3:
-0.096
+Scenario #3:\
+0.096\
 
 Scenario #4:
-21.000
+21.000\
+
+### Conclusion
+
+I am confidednt that I did the problem correctly and their solution is wrong. Moving on.
