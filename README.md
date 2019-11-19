@@ -159,3 +159,9 @@ Scenario #4:
 ### Conclusion
 
 I am confidednt that I did the problem correctly and their solution is wrong. Moving on.
+
+# Code Forces Problems
+
+## 582d3 Problem C
+
+In progress.
