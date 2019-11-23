@@ -24,20 +24,21 @@ int main(){
         //find how long to run the sequence of mods
         cnt = (n / m);
         printf("\n");
-		set<int>::iterator it = mods.begin();
-		while(m < n){
-			while(it != mods.end()){
-				cout << (*it) << endl;
-				sum+=(*it);
-				m+=(*it);
-				it++;
-				cout << sum << endl;
-				
-			}
+		//set<int>::iterator it = mods.begin();
+		cout << mods.size() << endl;
+		for(auto it : mods){
+			cout << 30 << "  " << it << endl;
+			//it--;
+			//cout << sum << endl;
 		}
-        cout << sum << endl;
+		
+			//cout << 41 << endl;
+
+		//cout << 41 << endl;
+        //cout << sum << endl;
         //cout << sum << endl;
         currQuery++;
+        
     }
     return 0;
 }
