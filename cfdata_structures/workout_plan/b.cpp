@@ -5,6 +5,7 @@ int main(){
 	int numDays,currStrength,drinkIncrement;
 	vector<int> grams;
 	vector<int> cost;
+
 	cin >> numDays >> currStrength;
 	int i = 0;
 	int tmp;

@@ -10,22 +10,15 @@ int main(){
 	int i = 0;
 	//cout << 11 << endl;
 	stack<char> s;
+	int count = 0;
 	while ( i++ < numChars){
 		cin >> c;
-		if(!s.empty() && c != s.top()){
-			s.pop();
-		}
-		else{
-			s.push(c);
-		}
+		if(c == '(') count++;
+		if(c == ')') count--;
 	}
-	//cout << 20 << endl;
-	if(s.size() <= 1){
-		cout << "Yes" << endl;
-	}
-	else{
-		cout << "No" << endl;
-	}
+	//cout << 20 << endl
+	if(count >= -1) cout << "Yes" << endl;
+	else cout << "No" << endl;
 	
 	return 0;
 }
