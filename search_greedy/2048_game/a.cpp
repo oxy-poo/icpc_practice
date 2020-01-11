@@ -2,7 +2,6 @@
 using namespace std;
 
 void solveSet(set<int> &a,int t){
-	//if(t == 2048) return;
 	if(!a.count(t)){
 		a.insert(t);
 	}
@@ -18,32 +17,23 @@ void solveSet(set<int> &a,int t){
 	
 
 int main(){
-	ifstream inFS;
-	inFS.open("i.dat");
 	int queries,sz;
-	inFS >> queries;
+	cin >> queries;
 	auto print = [](const int& n) { std::cout << " " << n; };
 	while(queries--){
-		inFS >> sz;
+		cin >> sz;
 		set<int> s;
 		int i = 0;
 		int temp;
+		bool g = false;
 		while(i < sz){
-			inFS >> temp;
-			//cout << temp << " ";
+			cin >> temp;
 			solveSet(s,temp);
-			
-
-			
-			//for_each(s.begin(),s.end(),print);
+			if(s.count(2048)) g = true;
 			i++;
 		}
-		cout << endl;
-		//for_each(s.begin(),s.end(),print);
-		cout << endl;
-		
-			 
-		
+		if(g) cout << "YES" << endl;
+		else cout << "NO" << endl;		 
 	}
 	return 0;
 }
